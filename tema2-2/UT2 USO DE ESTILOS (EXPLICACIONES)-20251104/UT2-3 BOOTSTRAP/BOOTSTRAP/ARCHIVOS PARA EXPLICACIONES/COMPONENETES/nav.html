@@ -1,0 +1,92 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+   
+  </head>
+  <body>
+
+    <div class="container">
+
+      <ul class="nav bg-dark mt-5 flex-column">
+        <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Novedades</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Nosotros</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+      </ul>
+
+
+      <nav class="nav bg-warning mt-5 justify-content-center">
+        <a href="#" class="nav-link">Inicio</a>
+        <a href="#" class="nav-link">Novedades</a>
+        <a href="#" class="nav-link">Nosotros</a>
+        <a href="#" class="nav-link">Contacto</a>
+      </nav>
+
+      <ul class="nav mt-5 nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+        <li class="nav-item"><a href="#" class="nav-link active">Novedades</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Nosotros</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+      </ul>
+
+      <nav class="nav mt-5 nav-tabs">
+        <a href="#" class="nav-link">Inicio</a>
+        <a href="#" class="nav-link active">Novedades</a>
+        <a href="#" class="nav-link">Nosotros</a>
+        <a href="#" class="nav-link">Contacto</a>
+      </nav>
+
+      <ul class="nav mt-5 bg-success nav-fill nav-justified">
+        <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+        <li class="nav-item"><a href="#" class="nav-link active">Novedades</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Nosotros</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+      </ul>
+
+      <!-- Con elemento dropdown -->
+      <ul class="nav mt-5">
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Inicio</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Inicio1</a>
+            <a class="dropdown-item" href="#">Inicio2</a>
+            <a class="dropdown-item" href="#">Inicio3</a>
+          </div>
+        </li>
+        <li class="nav-item"><a href="#" class="nav-link active">Novedades</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Nosotros</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+      </ul>
+
+      <!-- Menú con paneles dinámicos  funciona con js de bootstrap 4-->
+      <nav class="nav nav-pills mt-5 mb-2">
+        <a href="#inicio" class="nav-link active" data-toggle="tab">Inicio</a>
+        <a href="#novedades" class="nav-link" data-toggle="tab">Novedades</a>
+        <a href="#nosotros" class="nav-link" data-toggle="tab">Nosotros</a>
+        <a href="#contacto" class="nav-link" data-toggle="tab">Contacto</a>
+      </nav>
+
+      <div class="tab-content border">
+        <div class="tab-pane fade show active" id="inicio">Contenido del Panel Inicio</div>
+        <div class="tab-pane fade" id="novedades">Contenido del Panel Novedades</div>
+        <div class="tab-pane fade" id="nosotros">Contenido del Panel Nosotros</div>
+        <div class="tab-pane fade" id="contacto">Contenido del Panel Contacto</div>
+      </div>
+
+
+    </div>
+
+    <!-- Optional JavaScript  para el menú con paneles dinámicos (necesita jquery)-->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>

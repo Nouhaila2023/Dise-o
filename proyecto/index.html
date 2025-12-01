@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>Verde360</title>
+</head>
+
+<body>
+
+    <header>
+        <h2>Verde360</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="sobrenosotros.html" class="active">Sobre nosotros</a></li>
+                <li><a href="servicios.html" class="active">Servicios</a></li>
+                <li><a href="fotogaleria.html" class="active">Fotogalería</a></li>
+                <li><a href="precios.html" class="active">Precios</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="parte1">
+            <h2>Verde360, el toque natural que tu casa pide </h2>
+            <p>Con Verde360 nos dedicamos a crear y mantener espacios verdes hermosos y saludables,
+                para que nuestros clientes puedan disfrutar de un entorno
+                natural en su hogar o negocio. </p>
+            <button class="buttones"><a href="contacto.html" class="active">Contacto</a></button>
+
+        </div>
+        <div class="carrusel">
+            <div class="slides">
+                <img src="img/foto1.webp" alt="Foto 1" class="slide active">
+                <img src="img/foto2.webp" alt="Foto 2" class="slide">
+                <img src="img/foto3.webp" alt="Foto 3" class="slide">
+            </div>
+            <button class="prev" onclick="cambiarSlide(-1)">&#10094;</button>
+            <button class="next" onclick="cambiarSlide(1)">&#10095;</button>
+        </div>
+
+        <div class="parte2">
+            <h2>Expertos en jardinería en Almeria</h2>
+            <p>Somos una empresa de jardinería ubicada en Almería, especializada en el diseño,
+                mantenimiento y paisajismo de jardines para hogares, empresas y espacios públicos.
+                Contamos con un equipo de profesionales cualificados y comprometidos para hacer de
+                tu jardín un lugar único y acogedor. ¡Déjanos embellecer tu entorno natural!</p>
+            <button class="buttones"><a href="sobrenosotros.html" class="active">Sobre nosotros</a></button>
+
+            <table>
+                <tr>
+                    <td>
+                        <h1>Experiencia en jardinería</h1>
+                        <p>Gracias a mi experiencia en jardinería, he aprendido a cultivar y mantener
+                            hermosas plantas y flores que llenan mi hogar de vida y color.</p>
+                    </td>
+                    <td>
+                        <h1>Servicio personalizado</h1>
+                        <p>"La empresa ofrece un servicio personalizado que se adapta a l
+                            as necesidades y preferencias de cada cliente,
+                            brindando una experiencia única y satisfactoria."</p>
+                    </td>
+                    <td>
+                        <h1>Calidad de nuestros productos</h1>
+                        <p>Nuestros productos se caracterizan por su excelente calidad, lo que nos ha permitido ganar
+                            la confianza y satisfacción de nuestros clientes.</p>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div class="parte3">
+
+            <h2>Jardinería en Almería</h2>
+            <img src="img/foto2.webp" alt="">
+            <p>Nos dedicamos a ofrecer servicios de jardinería de alta calidad en la ciudad de Almería
+                y sus alrededores. Contamos con un equipo de profesionales altamente capacitados que se
+                encargarán de mantener tus espacios verdes en perfecto estado,
+                desde el diseño y la construcción hasta el mantenimiento y la conservación.</p>
+            <table>
+                <tr>
+                    <td>Mantenimiento de jardines</td>
+                </tr>
+                <tr>
+                    <td>Diseño paisajístico </td>
+                </tr>
+            </table>
+            <button class="buttones"><a href="servicios.html" class="active">Todos los servicios</a></button>
+
+        </div>
+
+        <div class="parte4">
+            <h2>Jardinería en imágenes</h2>
+            <p>En nuestra galería de fotos podrás encontrar una amplia variedad de imágenes de nuestros
+                trabajos en jardinería, desde diseño de paisajes hasta mantenimiento de jardines.
+                ¡Descubre cómo podemos transformar tu espacio exterior en un oasis verde!</p>
+            <img src="img/img1.jpg" alt="">
+            <img src="img/img2.jpg" alt="">
+            <img src="img/img3.jpg" alt="">
+            <img src="img/img4.jpg" alt="">
+            <button class="buttones"><a href="fotogaleria.html" class="active">Ver más fotos</a></button>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <h2 class="pie">¿Necesitas hablar con nosotros?</h2>
+
+        <div class="foter-container">
+
+            <div class="footer1">
+                <h2>Contáctame</h2>
+                <button class="buttonF"><a href="contacto.html">Contacto</a></button>
+                <p>Visítanos</p>
+                <p>Calle Falsa 123, Almería, España</p>
+                <p>Teléfono: 123-456-7890</p>
+                <p>Email: verde360@gmail.com</p>
+            </div>
+
+            <div class="footer2">
+                <h2>Suscríbete a nuestra newsletter</h2>
+                <p>Aquí comienza tu texto. Puedes hacer clic en este punto y empezar a escribir.</p>
+                <input type="email" placeholder="@">
+                <button class="buttonF">Enviar</button>
+            </div>
+
+        </div>
+
+        <p class="pie">© 2026 Verde360. Todos los derechos reservados.</p>
+    </footer>
+
+
+
+</body>
+
+</html>
